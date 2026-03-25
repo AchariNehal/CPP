@@ -1,5 +1,6 @@
+#include<bits/stdc++.h>
 #include<iostream>
-using namespace std;
+using  namespace std;
 int main(){
     int x;
     cout << "HELLO" << "\n"<< "Hi" << "\n";
