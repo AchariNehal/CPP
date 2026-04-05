@@ -12,5 +12,19 @@ int main(){
     //vector<int>::reverse_iterator itr;
     for(auto itr=vec.rbegin();itr!=vec.rend();itr++)
     cout << *(itr) <<" ";
+
+    cout << "\n";
+
+    //implemented as doubly linked list
+    list<int>l;
+    l.push_back(0);
+        l.push_back(1);
+    l.push_front(4);
+        l.push_front(5);
+    for(int var:l){
+        cout << var;
+    }
+        
+
     return 0;
 }
